@@ -16,11 +16,6 @@
 	
   <distributionManagement>
 	  <repository>
-		  <id>internal.repo</id>
-		  <name>Internal Repo</name>
-		  <url>file:///var/lib/jenkins/myartifacts1</url>
-	  </repository>
-	  <repository>
 		  <id>releases</id>
 		  <url>http://54.90.228.202:8081/repository/maven-releases/</url>
 	  </repository>
