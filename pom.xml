@@ -19,10 +19,10 @@
 		  <id>releases</id>
 		  <url>http://54.90.228.202:8081/repository/maven-releases/</url>
 	  </repository> --> -->
-	  <snapshotRepository>
+	  <repository>
 		  <id>snapshots</id>
 		  <url>http://54.90.228.202:8081/repository/maven-snapshots/</url>
-	  </snapshotRepository>
+	  </repository>
 <!-- 	  <internalRepository> -->
 		  
   </distributionManagement>	
