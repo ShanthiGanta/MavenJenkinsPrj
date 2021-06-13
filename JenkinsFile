@@ -11,7 +11,6 @@ pipeline{
         }
       }
     }
-  stages {
     stage("Test"){
       steps{
         withMaven(maven : 'apache-maven-3.6.3'){
@@ -19,7 +18,6 @@ pipeline{
         }
       }
     }
-  stages {
     stage("Deploy"){
       steps{
         withMaven(maven : 'apache-maven-3.6.3'){
